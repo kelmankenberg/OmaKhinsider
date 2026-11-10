@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "kelmankenberg.omakhinsider",
+  "name": "OmaKhinsider",
+  "version": "0.1.0",
+  "author": "kelmankenberg",
+  "description": "Queue KHInsider albums and organize soundtrack playlists.",
+  "kinds": ["bar-widget", "panel"],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml",
+    "panel": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "OmaKhinsider",
+    "category": "Media",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
