@@ -104,7 +104,7 @@ repository; the link uses the chooser and does not depend on template filenames.
 **Album queue > Setup instructions** or **Settings > Browser setup** for the
 bundled, offline guide. It includes commands using your actual plugin location
 and generates Chromium registration commands after you paste the extension ID.
-No setup command runs automatically, and none needs `sudo`.
+No setup command runs automatically. No sudo or pkexec is required.
 Downloaded albums can be imported and played without the companion.
 
 The browser companion sends the current KHInsider album URL to OmaKhinsider
