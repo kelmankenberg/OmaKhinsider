@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "OmaKhinsider Queue",
+  "version": "0.2.0",
+  "description": "Add the current KHInsider album page to OmaKhinsider.",
+  "permissions": ["activeTab", "nativeMessaging", "scripting"],
+  "background": { "service_worker": "background.js" },
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "action": {
+    "default_title": "Add KHInsider album to OmaKhinsider",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png"
+    },
+    "default_popup": "popup.html"
+  }
+}

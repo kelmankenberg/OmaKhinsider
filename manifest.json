@@ -2,9 +2,9 @@
   "schemaVersion": 1,
   "id": "kelmankenberg.omakhinsider",
   "name": "OmaKhinsider",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "kelmankenberg",
-  "description": "Queue KHInsider albums and organize soundtrack playlists.",
+  "description": "Inspect KHInsider albums, download MP3/FLAC soundtracks, and play local or online albums in Omarchy.",
   "kinds": ["bar-widget", "panel"],
   "entryPoints": {
     "barWidget": "BarWidget.qml",
@@ -13,7 +13,7 @@
   "barWidget": {
     "displayName": "OmaKhinsider",
     "category": "Media",
-    "allowMultiple": false,
+    "allowMultiple": true,
     "defaultSection": "right"
   }
 }

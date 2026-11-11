@@ -3,3 +3,5 @@
 *.swo
 build/
 qmllint.log
+__pycache__/
+browser-companion/build/
